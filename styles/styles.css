@@ -1,0 +1,158 @@
+/* Palitra
+#212121 - secondary-text-color
+#757575 - main-text-color
+#F5F5F5 - background-color
+#2196F3 - accent-color
+#FFFFFF - white-color
+#F5F4FA - background-color
+#F5F5F5 - background-color
+#2F303A - footer
+#EEEEEE - gallery background */
+
+:root{
+    --accent-color:#2196F3;
+    --title-text-color:#212121;
+    --main-text-color:#757575;
+    --white-color:#ffffff;
+    --button-color:#F5F4FA;
+}
+
+
+/* Studio css */
+
+
+.studio-main{
+    background-color: #ffffff;
+    color: var(--main-text-color);
+}
+.link{
+    text-decoration: none;
+}
+
+.logo{
+    color: #000000;
+}
+.web-logo{
+    color:var(--accent-color);
+}
+
+/* Styles for header */
+
+.list{
+    list-style: none;
+}
+
+/* site nav */
+
+.site-nav .link{
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+.contact-link{
+    color: var(--main-text-color);
+}
+
+/* styles for headers contacts */
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--accent-color);
+}
+
+/* Styling hero section */
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+color: var(--white-color);
+
+}
+
+.hero-button{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* Section features */
+
+.features-title{
+    color: var(--title-text-color);
+}
+
+.features-text{
+    color: var(--main-text-color);
+}
+
+/* work section */
+
+.work-title{
+    color: var(--title-text-color);
+}
+
+/* team sectioin  */
+
+.team-title{
+    color: var(--title-text-color);
+
+}
+
+.team-member{
+    color: var(--title-text-color);
+}
+.team-text{
+    color: var(--main-text-color);
+}
+
+/* Styles for footer */
+.footer-logo{
+    color: var(--white-color);
+}
+.footer{
+    background-color: #2F303A;
+}
+.address-street{
+    color: var(--white-color);
+}
+.address-contact{
+  
+    color: #ffffff;
+}
+
+
+
+
+/* Portfolio Page */
+
+.portfolio-main{
+background-color: var(--white-color);
+}
+
+
+/* Portfolio navigation  */
+.nav-button{
+background-color: var(--button-color);
+color: var(--title-text-color);
+
+}
+
+.nav-button:hover,
+.nav-button:focus{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/* portfolio gallery */
+
+.portfolio-title{
+color: var(--title-text-color);
+}
+.portfolio-text{
+color: var(--main-text-color);
+}
