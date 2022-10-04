@@ -211,6 +211,10 @@ letter-spacing: 0.03em;
 .address-contact{
   
     color: #ffffff;
+
+}
+.address-contact:hover{
+    color: var(--accent-color);
 }
 
 
@@ -249,7 +253,7 @@ font-weight: 500;
 line-height: 1.6;
 letter-spacing: 0.03em;
 text-align: center;
-
+cursor: pointer;
 }
 
 .nav-button:hover,
